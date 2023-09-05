@@ -51,7 +51,7 @@ entry_frame.pack(padx=10, pady=18)
 entry = ctk.CTkEntry(master=entry_frame, placeholder_text="Video URL", width=250)
 entry.pack(side="left", padx=13)
 
-browse_image = ctk.CTkImage(light_image=Image.open("./mp4-converter/folder_icon.png"),size=(10,12))
+browse_image = ctk.CTkImage(light_image=Image.open("./mp4-converter/icons/folder_icon.png"),size=(10,12))
 browse_button = ctk.CTkButton(master=entry_frame, text="Select folder",
                         command=path_out, image=browse_image,
                         width=130, fg_color = "#06a5c4",
